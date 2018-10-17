@@ -1,0 +1,2 @@
+cou.o : cou.c  cou.h ../include/stucou.h
+	gcc -I../include  -I. -c cou.c -o ../release/cou.o
